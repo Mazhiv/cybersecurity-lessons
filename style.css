@@ -132,6 +132,7 @@ h1 {
     width: 100%;
     min-width: 120px;
 
+
 }
 
 
@@ -332,7 +333,11 @@ p {
 .hamb {
     display: none;
 }
-
+.parlines, .partn{
+    width: 100%;
+    overflow: hidden;
+    max-width: none;
+}
 .parline{
     margin-top: 50px;
 }
@@ -343,6 +348,7 @@ p {
 .parline{
     display: flex;
     gap: 50px;
+    width: 100%;
 }
 
 .parline img{
@@ -398,7 +404,7 @@ p {
   
   .square-animation {
     opacity: 0;
-    animation: show 2s forwards;
+    animation: show 3s forwards;
   }
 
 
